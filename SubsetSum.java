@@ -1,7 +1,8 @@
 /**
- * Author: Dheemanth G K(DG072881)
  * [cerner_2tothe5th_2022]
- * [cerner_2^5_2022]
+ * "cerner_2^5_2022"
+ * Author: Dheemanth G K(DG072881)
+ *
  * Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum
  * equal to given sum.
  * Input: numbers[] = {3, 34, 4, 12, 5, 2}, target = 9
@@ -11,7 +12,6 @@
  */
 public class SubsetSum {
     public static boolean[][] dp;
-
     public static void main(String[] args) {
         int[] numbers = new int[]{3, 34, 4, 12, 5, 2};
         int sum = 9;
